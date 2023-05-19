@@ -56,11 +56,14 @@ nav .ancors:hover{
 
 .mainEvent {
     display: flex;
+    font-size: 1rem;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
     margin: auto;
+    overflow-y: auto;
     margin-top: 20px;
+    padding-bottom: 20px;
     width: 80vh;
     height: 25vh;
     border-radius: 15px;
@@ -68,12 +71,12 @@ nav .ancors:hover{
 }
 
 .mainEvent img {
-    /* padding-left: 70px; */
-    width: 12vw;
+    width: 25%;
+    height: auto;
 }
 
 .smallLeft {
-    width: 20vw;
+    width: 60%;
 }
 
 .smallLeft button {
@@ -87,15 +90,11 @@ nav .ancors:hover{
 }
 
 .smallLeft h3 {
-    font-size: 25px;
-}
-
-.smallLeft p{
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .smallLeft .date {
-    font-size: 15px;
+    font-size: 0.5rem;
 }
 
 /***Small event***/
