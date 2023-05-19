@@ -64,7 +64,10 @@ export class Feature {
     
         const myUsableResponse = await myResponse.json()
         if (myUsableResponse.status == 'success') {
-        alert('Your registration was succesfull')}
+            alert('Your registration was succesfull')
+        } else {
+            alert('You dumb')
+        }
         })
     }
 }
