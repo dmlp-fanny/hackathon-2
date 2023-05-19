@@ -20,6 +20,13 @@ nav {
     color: black ;
 }
 
+nav .ancors:hover{
+    cursor: pointer;
+    color: rgb(123, 118, 118);
+
+}
+
+
 .events {
     padding-left: 15px;
 }
@@ -41,16 +48,46 @@ nav {
 
 .mainEvent {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin: auto;
     margin-top: 20px;
     width: 80vh;
+    height: 25vh;
     border-radius: 15px;
     background-color: rgb(249, 243, 243);
 }
 
 img {
+    padding-left: 70px;
     width: 12vw;
+}
+
+.smallLeft {
+    width: 20vw;
+}
+
+.smallLeft button {
+    position: relative;
+    left: 12%;
+    top: 12%;
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.smallLeft h3 {
+    font-size: 25px;
+}
+
+.smallLeft p{
+    font-size: 20px;
+}
+
+.smallLeft .date {
+    font-size: 15px;
 }
 
 /***Small event***/
@@ -58,16 +95,27 @@ img {
 .smallEvent {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 10vw;
-    height: 10vh;
+    height: 15vh;
     background-color: rgb(249, 243, 243);
     border-radius: 15px;
     margin: 25px auto;
 }
 
 .smallEvent h3 {
+    font-size: 20px;
 
 }
+
+.smallEvent button {
+    border: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+
 
 
 

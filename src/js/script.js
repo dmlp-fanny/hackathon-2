@@ -3,7 +3,7 @@ import { Event } from "./Classes/Event"
 // List of Events 
 const link = 'https://test-api.codingbootcamp.cz/api/0b28a0a8/events'
 
-const target = document.querySelector('.target')
+const target = document.querySelector('')
 
 fetch(link).then(r => r.json()).then(dataArray => {
     console.log(dataArray);
