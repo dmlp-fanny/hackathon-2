@@ -25,6 +25,7 @@ registrtionButton.addEventListener('click', () => {
     document.querySelector('.modalview').classList.remove('hidden')
 })
 
+// Registration 
 const form = document.querySelector('form')
 
 form.addEventListener('submit', async (e) => {
@@ -55,4 +56,4 @@ form.addEventListener('submit', async (e) => {
     console.log(myUsableResponse)
 })
 
-// featured event 
+// Featured event 
