@@ -1,3 +1,19 @@
 body {
-    background-color: red;
+    color: black;
+}
+.modalview {
+    height: 100vh;
+    &_card {
+        width: 60%;
+        height: 60%;
+        position: fixed;
+        top: 15%;
+        left: 20%;
+        z-index: 1;
+        background-color: rgba(210, 215, 211, 0.8)
+    }
+}
+
+.hidden {
+    display: none;
 }
