@@ -3,6 +3,8 @@ body {
 }
 .modalview {
     height: 100%;
+    text-align: center;
+    font-size: 2rem;
     width: 100%;
     z-index: 1;
     &_card {
@@ -12,6 +14,11 @@ body {
         top: 15%;
         left: 20%;
         background-color: rgba(210, 215, 211, 0.9);
+        .cross {
+            position: absolute; 
+            right: 20px;
+            top: 10px;
+        }
         .form {
             width: 70%;
             display: flex;

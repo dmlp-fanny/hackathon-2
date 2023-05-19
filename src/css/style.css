@@ -1,7 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+}
+
 #mainContainer {
-    margin: auto;
-    width:70vw;
-    border: 1px solid red
+    margin: 0 auto;
+    /* width:70vw; */
+    /* border: 1px solid red; */
 }
 
 /***Navigation***/
@@ -26,7 +35,6 @@ nav .ancors:hover{
 
 }
 
-
 .events {
     padding-left: 15px;
 }
@@ -49,7 +57,7 @@ nav .ancors:hover{
 .mainEvent {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: auto;
     margin-top: 20px;
@@ -59,8 +67,8 @@ nav .ancors:hover{
     background-color: rgb(249, 243, 243);
 }
 
-img {
-    padding-left: 70px;
+.mainEvent img {
+    /* padding-left: 70px; */
     width: 12vw;
 }
 
@@ -91,20 +99,30 @@ img {
 }
 
 /***Small event***/
+.smallEvent_container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
 
 .smallEvent {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    width: 10vw;
-    height: 15vh;
+    flex: 1;
+    min-width: 30%;
+    height: 30vh;
     background-color: rgb(249, 243, 243);
+    overflow: hidden;
     border-radius: 15px;
     margin: 25px auto;
 }
 
 .smallEvent h3 {
-    font-size: 20px;
+    font-size: 0.8rem;
 
 }
 
@@ -113,9 +131,14 @@ img {
     width: 120px;
     height: 30px;
     border-radius: 15px;
+    margin: 1rem;
 }
 
-
+.smallEvent img {
+    /* padding-left: 70px; */
+    /* width: 12vw; */
+    width: 100%;
+}
 
 
 
