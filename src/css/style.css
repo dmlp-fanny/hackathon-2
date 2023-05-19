@@ -1,7 +1,6 @@
 #mainContainer {
     margin: auto;
-    width:70vw;
-    border: 1px solid red
+    width: 70vw;
 }
 
 /***Navigation***/
@@ -91,6 +90,16 @@ img {
 }
 
 /***Small event***/
+
+.smallEventContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80vh;
+    height: 50vh;
+    border-radius: 15px;
+}
+
 
 .smallEvent {
     display: flex;
